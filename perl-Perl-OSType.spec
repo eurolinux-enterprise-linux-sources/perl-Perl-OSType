@@ -13,7 +13,7 @@
 
 Name:		perl-Perl-OSType
 Version:	1.003
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Map Perl operating system names to generic types
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -99,6 +99,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Perl::OSType.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.003-3
+- Mass rebuild 2013-12-27
+
 * Thu Mar 21 2013 Petr Pisar <ppisar@redhat.com> - 1.003-2
 - Disable optional tests on RHEL 7 too
 
